@@ -1,110 +1,67 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color:hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Figtree', sans-serif;
+}
+main{
+    margin-top: 4rem;
+    background-color: white;
+    width: 20%;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    box-shadow:1rem 1rem 0.1rem 0rem;
+}
+p{
+    font-size: 1rem;
+    margin-left: 5%;
+    padding-right: 2%;
+}
+.fundo{
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 1rem;
+    margin:5% 0% 5% 5%;
 
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+}
+.learning{
+    background-color:hsl(47, 88%, 63%);
+    font-size: 1rem;
+    font-weight: 800;
+    margin-left: 5%;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+h1{
+    font-size: 1.5rem;
+    margin-left: 5%;
+    color: black;
 }
 
-body {
-  font-family: "Lexend Deca", sans-serif;
-  background-color: white;
-  font-size: 15px;
-  display: flex;
-  height: 100vh;
-  color: white;
+.texto2{
+    color: hsl(0, 0%, 50%);
+    font-weight: 600;
 }
-
-article {
-  max-width: 278px;
-  height: 450px;
-  padding: 42px;
-  position: relative;
+.poster{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-
-article.sedan {
-  background-color: orange;
-  border-radius: 7px 0 0 7px;
+span > img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0% 0% 5% 5%;
 }
-
-article.suv {
-  background-color: cyan;
+span > p{
+    font-weight: 800;
+    margin: 0% 0% 5% 5%;
 }
-
-article.luxury {
-  background-color: darkcyan;
-  border-radius: 0 7px 7px 0;
-}
-
-img {
-  margin-bottom: 36px;
-}
-
-h1 {
-  font-family: "Big Shoulders Display", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  color: gray;
-  margin-bottom: 1.5rem;
-}
-
-article p {
-  color: white;
-  font-size: 13.8px;
-  line-height: 1.5rem;
-}
-
-button {
-  position: absolute;
-  cursor: pointer;
-  text-align: center;
-  display: inline-block;
-  padding: 14px;
-  width: 146px;
-  border-radius: 25px;
-  outline: none;
-  border: 2px solid white;
-  font-family: inherit;
-  transition: all 0.2s ease-in-out;
-  bottom: 42px;
-}
-
-.sedan button {
-  background: white;
-  color: orange;
-}
-
-.suv button {
-  background-color: white;
-  color: cyan;
-}
-
-.luxury button {
-  background-color: white;
-  color: darkcyan;
-}
-
-
-button:active {
-  transform: scale(0.9);
-}
-
-/* style footer */
-
-.attribution {
-  width: 100%;
-  margin: 0 auto;
-  position: absolute;
-  color: gray;
-  bottom: 10px;
-  font-size: 0.75rem;
-  line-height: 20px;
-  text-align: center;
-}
-
-.attribution a {
-  text-decoration: none;
-  color: darkgray;
+div{
+    margin-top: 4rem;
 }
