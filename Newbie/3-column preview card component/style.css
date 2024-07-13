@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: white;
+  font-size: 15px;
+  display: flex;
+  height: 100vh;
+  color: white;
+}
+
+article {
+  max-width: 278px;
+  height: 450px;
+  padding: 42px;
+  position: relative;
+}
+
+article.sedan {
+  background-color: orange;
+  border-radius: 7px 0 0 7px;
+}
+
+article.suv {
+  background-color: cyan;
+}
+
+article.luxury {
+  background-color: darkcyan;
+  border-radius: 0 7px 7px 0;
+}
+
+img {
+  margin-bottom: 36px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: gray;
+  margin-bottom: 1.5rem;
+}
+
+article p {
+  color: white;
+  font-size: 13.8px;
+  line-height: 1.5rem;
+}
+
+button {
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width: 146px;
+  border-radius: 25px;
+  outline: none;
+  border: 2px solid white;
+  font-family: inherit;
+  transition: all 0.2s ease-in-out;
+  bottom: 42px;
+}
+
+.sedan button {
+  background: white;
+  color: orange;
+}
+
+.suv button {
+  background-color: white;
+  color: cyan;
+}
+
+.luxury button {
+  background-color: white;
+  color: darkcyan;
+}
+
+
+button:active {
+  transform: scale(0.9);
+}
+
+/* style footer */
+
+.attribution {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  color: gray;
+  bottom: 10px;
+  font-size: 0.75rem;
+  line-height: 20px;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: darkgray;
+}
